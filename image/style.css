@@ -1,0 +1,296 @@
+@font-face {
+    font-family: 'restaurant_menu_hollowregular';
+    src: url('font/restaurantmenuhollow-webfont.woff2') format('woff2'),
+         url('font/restaurantmenuhollow-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+
+/*--mise en page de la section presentation--*/
+
+body{
+    margin: 0px;
+    padding:0px;
+}
+main{
+ 
+ 
+ display: flex;
+ 
+}
+.page{
+    width: 33%;
+    background-color: rgb(254,202,7);
+    position: relative;
+}
+.photo{
+    text-align: center;
+    margin-top: 20px;
+}
+.photo1{
+    width: 40%;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    
+}
+h2{
+    font-family: 'restaurant_menu_hollowregular';
+    background-color: rgb(64,64,64);
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    font-size: 1.9em;
+    color: rgb(254,202,7);
+    text-transform: uppercase;
+}
+.contact p{
+    font-size: 1.2em;
+    margin-bottom: -3px;
+    padding-left: 10px;
+    
+    
+}
+.contact a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.a_propos p{
+    width: 80%;
+    margin: auto;
+    text-align:justify;
+    margin-bottom: 237px;
+}
+.loisir{
+    width: auto;
+    margin: auto;
+}
+.logo1{
+    width: 25%;
+    padding-left: 25px;
+}
+.logo2{
+    width: 55%;
+    padding-left: 25px;
+}
+
+/*--mise en page de la section parcours--*/
+
+.parcours{
+    width: 80%;
+    margin-left: 90px;
+    margin-right: auto;
+    
+}
+.titre h1{
+
+font-size: 4.8em;
+margin-top: 60px;
+font-family: 'restaurant_menu_hollowregular';
+
+}
+.titre strong{
+    color: rgb(254,202,7);
+    margin-right: 20px;
+}
+.titre span{
+    border-bottom:1px solid rgb(254,202,7);
+    
+}
+.titre p{
+    font-size: 1.8em;
+    margin-top: -75px;
+    margin-bottom: 150px;
+    
+}
+.formation{
+    display: flex;
+    font-size: 30px;
+    
+}
+.formation i{
+    font-size: 40px;
+    margin-right: 20px;
+    color: rgb(254,202,7);
+}
+h4{
+    font-family: 'restaurant_menu_hollowregular';
+    margin-top: 8px;
+    
+}
+.lign{
+    width: 80%;
+    height: 1px;
+    background-color: rgb(254,202,7);
+    margin: auto;
+    margin-top: -27px;
+    margin-left: -4px;   
+}
+.point{
+    display: flex;
+    margin-top: 25px;
+}
+.point i{
+    margin-right: 15px;
+    height: 13px;
+    margin-top: 17px;
+    color: rgb(254,202,7);
+}
+.block1{
+    display: flex;
+    
+}
+.formation1{
+    margin-left: 30%;
+    margin-top: 20px;
+}
+.recommendation{
+    display: flex;
+    margin: auto;
+}
+.ampi{
+    margin-right: 150px;
+}
+
+.points i{
+    color: rgb(254,202,7);
+    margin-right: 15px;
+    height: 13px;
+    margin-top: 17px;
+}
+.points{
+    display: flex;
+    
+}
+.block3{
+    display: flex;
+}
+.formation2{
+   margin-left:30% ;
+}
+
+@media screen and (max-width: 768px){
+    main{
+       flex-direction: column;
+       
+    }
+        
+    .page{
+        width: 100%;
+    }
+    .photo1{
+        width: 30%;
+    }
+    .parcours{
+        width: 100%;
+        margin: 0px;
+        border-top-style: none;
+    }
+    .contact{
+        width: auto;
+        justify-content: center;
+    }
+    .contact h1{
+      width: 100%;
+      
+    }
+    .contact p{
+        text-align:center;
+    }
+    
+    .recommendation{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .ampi{
+        text-align: center;
+        margin: auto;
+    }
+    .titre h1{
+        font-size: 3.2em;
+        margin-bottom: 77px;
+        text-align: center;
+        margin-top: 43px;
+    }
+    .titre p{
+        text-align: center;
+    }
+    .titre{
+        justify-content: center;
+
+    }
+    .lien{
+        text-align:center;
+
+    }
+    
+    .block1{
+        margin-bottom: 34px;
+        margin-top: -22px;
+        flex-direction: column;
+    }
+    .point{
+        justify-content: center;
+    }
+    
+    .formation{
+        justify-content: center;
+        margin-bottom: -34px;
+        margin-top: -20px;
+    }
+    .a_propos p{
+        margin-bottom: 25px;
+       
+    }
+    
+    .lign{
+        margin: auto;
+    }
+    .formation1{
+        margin-top: -13px;
+        margin-left: -24px;
+        text-align: center;
+        
+    }
+    .formation2{
+        margin-left: 5px;
+    }
+    .block3{
+        flex-direction: column;
+        text-align: center;
+    }
+    .points{
+        justify-content: center;
+    }
+    .loisir{
+        position: relative;
+        top: 1921px;
+        background-color: rgb(254,202,7);
+    
+}
+}
+    
+    
+    
+
+   
+    
+   
+
+
+
+
+
+
+
